@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Divisima</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/f71c855944.js" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+  </head>
+  <body >
+    <div class="container-my main-header">
+      <div class="row">
+        <div class="col-lg-2 main-header-content">
+          <center><img class="logo-img" src="images/logo.png" alt=""> </center>
+        </div>
+        <div class="col-lg-5 main-header-content">
+          <center><form class="main-heading-search-div" action="index.html" method="post">
+            <input type="text" name="" value="" class="main-heading-search" placeholder="Search on divisima...">
+            <button type="submit" name="button" class="main-heading-btn"><i class="fas fa-search"></i></button>
+          </form></center>
+        </div>
+        <div class="col-lg-5 main-header-content">
+          <button type="button" class="main-heading-btn-1 login-btn" name="button"><i class="far fa-user main-heading-icon"></i> Sign in or Create Account</button>
+          <button type="button" class="main-heading-btn-1 cart-btn" name="button"><i class="fas fa-shopping-cart main-heading-icon"></i> Shopping Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark my-nav">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler nav-ham" onclick="changeSym()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menu <span id="nav-ham-icon" class="fas fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav container">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jewelry</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="bg">
+      <div class="bg-text w3-animate-bottom">
+        <h3>NEW ARRIVALS</h3>
+        <h1>DENIM JACKETS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row">
+          <div class="col-lg-5">
+            <button class="cover-button1" type="button" name="button">DISCOVER</button>
+          </div>
+          <div class="col-lg-4">
+            <button class="cover-button2" type="button" name="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="row">
+          <div class="col-lg-6">
+            <button class="img-btn" type="button" name="button"><i class="fas fa-arrow-circle-left img-btn-arrow"></i></button>
+            <button class="img-btn" type="button" name="button"><i class="fas fa-arrow-circle-right img-btn-arrow"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="bg1"></div> -->
+  </body>
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js" ></script>
+  <script src="js/bootstrap.js"></script>
+  <script>
+    function changeSym() {
+      var element = document.getElementById('nav-ham-icon');
+      if (element.className == "fas fa-bars") {
+          element.className = "fas fa-times";
+          element.style.fontSiz
+      }else{
+        element.className = "fas fa-bars";
+      }
+    }
+  </script>
+</html>
